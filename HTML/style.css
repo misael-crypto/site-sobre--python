@@ -1,0 +1,85 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Container centralizado */
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #1e88e5;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .menu li a:hover {
+    color: #cfe9ff;
+  }
+  
+  /* Seções */
+  main section {
+    margin: 40px 0;
+  }
+  
+  main h2 {
+    margin-bottom: 10px;
+    color: #1e88e5;
+  }
+  
+  main ul {
+    list-style: square inside;
+    margin-left: 20px;
+  }
+  
+  main a {
+    color: #1e88e5;
+    text-decoration: none;
+  }
+  
+  main a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #eeeeee;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
