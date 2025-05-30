@@ -1,5 +1,5 @@
-/* Reset básico */
-* {
+
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,14 +12,14 @@
     color: #333;
   }
   
-  /* Container centralizado */
+  
   .container {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
   }
   
-  /* Cabeçalho */
+ 
   header {
     background-color: #1e88e5;
     color: #fff;
@@ -50,7 +50,7 @@
     color: #cfe9ff;
   }
   
-  /* Seções */
+ 
   main section {
     margin: 40px 0;
   }
@@ -74,7 +74,7 @@
     text-decoration: underline;
   }
   
-  /* Rodapé */
+  
   footer {
     background-color: #eeeeee;
     padding: 20px 0;
